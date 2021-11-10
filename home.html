@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Counter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="counter-container">
+            <div class="box border-thick">
+                <div class="flex margin justify-left mg-left hide" id="saving">
+                        <div class="loader">
+                        </div>
+                    <div class="text mg-left">
+                        Saving counter value
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="div-left border-thick flex" id="minus-btn">
+                        -
+                    </div>
+                    <div class="div-mid border-thick flex bold">
+                        <input type="number" name="counter-input" id="input-val" max="1000" value="1">
+                    </div>
+                    <div class="div-right border-thick flex" id="plus-btn">
+                        +
+                    </div>
+                </div>
+            </div>
+            <div class="box border-thick dispay-container">
+                <div class="bold text">
+                    Counter value
+                </div>
+                <div id="counter" class="text mg-top">
+                    10
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
